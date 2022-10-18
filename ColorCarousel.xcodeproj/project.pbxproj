@@ -17,6 +17,7 @@
 		DB4A87AE28FC4FED009426BD /* ColorCarouselUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A87AD28FC4FED009426BD /* ColorCarouselUITestsLaunchTests.swift */; };
 		DB4A87BD28FC50FA009426BD /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A87BC28FC50FA009426BD /* ColorsTableVC.swift */; };
 		DB4A87BF28FC5439009426BD /* ColorsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A87BE28FC5439009426BD /* ColorsDetailVC.swift */; };
+		DBADCD9228FED18900A98462 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBADCD9128FED18900A98462 /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DB4A87AD28FC4FED009426BD /* ColorCarouselUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCarouselUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB4A87BC28FC50FA009426BD /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
 		DB4A87BE28FC5439009426BD /* ColorsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailVC.swift; sourceTree = "<group>"; };
+		DBADCD9128FED18900A98462 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +107,10 @@
 				DB4A878C28FC4FEC009426BD /* SceneDelegate.swift */,
 				DB4A87BC28FC50FA009426BD /* ColorsTableVC.swift */,
 				DB4A87BE28FC5439009426BD /* ColorsDetailVC.swift */,
+				DBADCD9128FED18900A98462 /* UIColor+Ext.swift */,
 				DB4A879028FC4FEC009426BD /* Main.storyboard */,
-				DB4A879328FC4FEC009426BD /* Assets.xcassets */,
 				DB4A879528FC4FEC009426BD /* LaunchScreen.storyboard */,
+				DB4A879328FC4FEC009426BD /* Assets.xcassets */,
 				DB4A879828FC4FEC009426BD /* Info.plist */,
 			);
 			path = ColorCarousel;
@@ -263,6 +266,7 @@
 			files = (
 				DB4A87BD28FC50FA009426BD /* ColorsTableVC.swift in Sources */,
 				DB4A87BF28FC5439009426BD /* ColorsDetailVC.swift in Sources */,
+				DBADCD9228FED18900A98462 /* UIColor+Ext.swift in Sources */,
 				DB4A878B28FC4FEC009426BD /* AppDelegate.swift in Sources */,
 				DB4A878D28FC4FEC009426BD /* SceneDelegate.swift in Sources */,
 			);
